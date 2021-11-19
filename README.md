@@ -25,20 +25,20 @@ _This project is the implementation of the main functions of interaction between
 
 2. Configure Tomcat Server
 
-3. Setup new connection in "src/main/resources/db.properties" with:
+3. Setup new connection in "src/main/resources/db.properties"
 
-4. Run project
-   Open API testing tool, for example you can use the Postman. <br> <br>
-   **_You can use next end points:_** <br>
-   GET  - /cinema-halls, /movies, /movie-sessions/available, /movie-sessions/id - USER and ADMIN, <br> 
-   GET  - /users/by-email?email - ADMIN, <br>
-   GET  - /orders, /shopping-carts/by-user - USER; <br>
-   POST - /register, /login- unauthorized, <br>
-   POST - /cinema-halls, /movies, /movie-sessions - ADMIN, <br>
-   POST - /orders/complete - USER role; <br>
-   PUT  - /movie-sessions/id - ADMIN, <br>
-   PUT  - /shopping-carts/movie-sessions?movieSessionId - USER; <br>
-   DELETE - /movie-sessions/id - ADMIN. <br><br>
+4. Run project <br>
+5. Open API testing tool, for example you can use the Postman. <br> <br>
+  **_You can use next end points:_** <br>
+  GET  - /cinema-halls, /movies, /movie-sessions/available, /movie-sessions/id - USER and ADMIN, <br> 
+  GET  - /users/by-email?email - ADMIN, <br>
+  GET  - /orders, /shopping-carts/by-user - USER; <br>
+  POST - /register, /login- unauthorized, <br>
+  POST - /cinema-halls, /movies, /movie-sessions - ADMIN, <br>
+  POST - /orders/complete - USER role; <br>
+  PUT  - /movie-sessions/id - ADMIN, <br>
+  PUT  - /shopping-carts/movie-sessions?movieSessionId - USER; <br>
+  DELETE - /movie-sessions/id - ADMIN. <br><br>
 
    **_Example for body params for POST and PUT requests:_** <br>
    POST /register: <br>
