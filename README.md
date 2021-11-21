@@ -1,7 +1,8 @@
 ## *`Cinema - web app`*
 
 _You can see how the program works on a remote server by following
-this link [https://cinema-app-by-zbarazkyy.herokuapp.com/](https://cinema-app-by-zbarazkyy.herokuapp.com/login)_ <br><br>
+this link [https://cinema-app-by-zbarazkyy.herokuapp.com/](https://cinema-app-by-zbarazkyy.herokuapp.com/login) <br> 
+Please use a reserved user (name: "user@gmail.com", password: "87654321") or register (POST - /register)_ <br><br>
 _This project is the implementation of the main functions of interaction between the cinema and the user. User can buy tickets for a specific movie session. To buy tickets user firstly adds them to the shopping cart and then completes an order.There are authentication and authorization. User can have different roles: USER, ADMIN._
 
 ### _Implemented Cinema web application shows my skills in:_ 
